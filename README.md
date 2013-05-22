@@ -7,7 +7,6 @@ then the menu and finally the content).
 ##Usage
 
 Fist include the required files on your page's HEAD ("easing" is optional).
-
 ``` html
 <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
