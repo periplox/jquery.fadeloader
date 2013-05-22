@@ -6,7 +6,7 @@ then the menu and finally the content).
 
 ##Usage
 
-Fist include the required files on your page head (easing is optional).
+Fist include the required files on your page's <head> (easing is optional).
 
 ``` html
 <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
