@@ -13,7 +13,7 @@ Fist include the required files on your page's HEAD ("easing" is optional).
 <script src='jquery.fadeloader.js'></script>
 ```
 
-Then set the class names of the elements to fade using the alphabet like this:
+Then set the class names of your elements using the alphabet. Let's say...
 ``` html
 <body>
 	<div class="a"><img class="let" src="http://imageshack.us/a/img577/8746/80670611.jpg"></div>
