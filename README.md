@@ -16,7 +16,7 @@ Fist include the required files on your page's HEAD ("easing" is optional).
 Then set the class names of the elements to fade like this:
 ``` html
 <body>
-<div class="a con"><img class="let" src="http://imageshack.us/a/img577/8746/80670611.jpg"></div>
+	<div class="a con"><img class="let" src="http://imageshack.us/a/img577/8746/80670611.jpg"></div>
 	<div class="b con"><img class="let" src="http://imageshack.us/a/img46/5216/37226104.jpg"></div>
 	<div class="c con"><img class="let" src="http://imageshack.us/a/img41/5663/51030348.jpg"></div>
 	<div class="d con"><img class="let" src="http://imageshack.us/a/img9/7412/73031581.jpg"></div>
