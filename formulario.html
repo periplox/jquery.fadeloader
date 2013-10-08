@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Formulario de Facebook</title>
+
+<!-- JAVASCRIPT / jQuery-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="http://www.bullpixserver.com.ar/taglitphotobooth/js/formulario.js"></script>
+
+<!-- Estilos -->
+<link rel="stylesheet" href="http://www.bullpixserver.com.ar/taglitphotobooth/estilos.css" type="text/css">
+
+<!-- VALIDADOR -->	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			formulario.config({
+				form:'#contact_form',
+				validar : true,
+				mensajeEnviado: 'Tus datos fueron enviados! Gracias por Preinscribirte!'
+				
+			});
+		});
+	</script>
+</head>
+
+
+<body>
+<div class="todo">
+	<div class="contenido">
+   	  <div class="pre"></div>
+      <div class="pic"></div>
+      
+      <div style="clear:both"></div>
+      
+      <form action="send.php" method="get"  id="contact_form">
+   	  <fieldset >
+        	<label for="name">Nombre</label>
+			<input type="text" name="nombre" id="name" validar="requerido"/>
+            
+            <label for="dni">D.N.I.</label>
+			<input type="text" name="dni" id="dni" validar="requerido" />
+            
+            <label for="mail">E-mail</label>
+			<input type="text" name="mail" id="mail"  validar="mail, requerido"/>
+            
+            <label for="tel">Tel. / Cel.</label>
+			<input type="text" name="tel" id="tel" />
+        </fieldset>
+        
+      <fieldset>
+        	<label for="name">Fecha de Nacimiento</label>
+            
+            <br/><br/>
+            
+            <select name="dia">
+                	<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>			                  
+                </select>
+            
+                <select name="mes">
+                	<option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Mayo</option>
+                    <option value="6">Junio</option>
+                    <option value="7">Julio</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>		                  
+                </select>
+                
+                <select name="anio">
+                	<option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option>			                  
+                </select>                
+                
+                <br/><br/><br/>
+                
+                <label style="display: inline-block; width: 200px; font-size:14px;" validar="requerido">¡QUIERO VIAJAR A ISRAEL!</label>
+                
+                <select name="boger">
+                	<option value="0">¡QUIERO VIAJAR A ISRAEL!</option>
+                    <option value="1">Soy Boger (Ya viaje con TAGLIT)</option>
+                </select>
+  			
+                <br/><br/>
+                
+               <label for="message">Comentario</label>
+               <textarea name='mensaje' id='message' rows="30" cols="30"></textarea>
+               <input type="submit" value="ENVIAR" name="send" class="boton"/>
+     	</fieldset>
+        
+      </form>
+    </div>
+    <div style="clear:both"></div>
+    <div class="sombra"></div>
+</div>
+
+</body>
+</html>
