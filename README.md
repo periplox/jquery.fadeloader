@@ -37,7 +37,9 @@ body > div {
 	
 ```
 
-Finally set the Fadeloader. This is the basic usage:
+Finally set the Fadeloader inside the document ready event. This is the basic usage:
 ``` javascript
-$('body').fadeloader({ });
+$(document).ready(function() {
+	$('body').fadeloader({ });
+});
 ```
