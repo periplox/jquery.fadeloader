@@ -37,4 +37,7 @@ body > div {
 	
 ```
 
-Finally set the 
+Finally set the Fadeloader. This is the basic usage:
+``` javascript
+$('body').fadeloader({ });
+```
