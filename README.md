@@ -43,4 +43,6 @@ $(document).ready(function() {
 	$('body').fadeloader({ });
 });
 ```
-That's it! Enjoy and help me improve the plugin.
+That's it! Enjoy.
+
+##Options
