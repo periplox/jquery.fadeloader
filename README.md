@@ -6,7 +6,7 @@ then the menu and finally the content).
 
 ##Usage
 
-Fist include the required files on your page's HEAD ("easing" is optional).
+Fist include the required files on your page's HEAD ("easing" is optional):
 ``` html
 <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
@@ -29,7 +29,7 @@ Then assign a class name to each of your elements using the alphabet. Let's say.
 </body>
 ```
 
-Now hide all elements using CSS.
+Now hide them all with CSS:
 ``` css
 body > div {
 	display: none;
@@ -37,9 +37,10 @@ body > div {
 	
 ```
 
-Finally set the Fadeloader inside the document ready event. This is the basic usage:
+Finally set the Fadeloader in the 'document ready' event. This is the basic usage:
 ``` javascript
 $(document).ready(function() {
 	$('body').fadeloader({ });
 });
 ```
+That's it! Enjoy and help me improve the plugin.
