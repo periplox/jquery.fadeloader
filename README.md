@@ -60,7 +60,7 @@ That's it! Enjoy.
     <td>mode</td>
     <td>string</td>
     <td>'class'</td>
-    <td>Defines the selection mode. 'Class' would select alphabetical classes inside the parent element ('body' in this case), while 'children' would select and all the children no matter what.</td>
+    <td>Selection mode. 'Class' would search for elements with alphabetical classes (a, b, c...) inside the parent element ('body' in this case), while 'children' would select all his children.</td>
  </tr>
  
  <tr>
