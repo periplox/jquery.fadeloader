@@ -45,22 +45,29 @@ $(document).ready(function() {
 ```
 That's it! Enjoy.
 
-##Options
+##Reference
 
 <table>
 
-  <tr>
+ <tr>
     <th>Option</th>
     <th>Type</th>
     <th>Default</th>
     <th>Description</th>
-  </tr>
+ </tr>
   
-  <tr>
+ <tr>
     <td>mode</td>
     <td>string</td>
     <td>'class'</td>
-    <td>Defines how the plugin will work. 'Class' would look for alphabetical classes inside the parent element ('body' in this case), while 'children' would fade all the children.</td>
+    <td>Defines how the plugin will work. 'Class' would search for alphabetical classes inside the parent element ('body' in this case), while 'children' would fade all the children no matter what.</td>
+ </tr>
+ 
+ <tr>
+    <td>mode</td>
+    <td>string</td>
+    <td>'class'</td>
+    <td>Defines how the plugin will work. 'Class' would search for alphabetical classes inside the parent element ('body' in this case), while 'children' would fade all the children no matter what.</td>
  </tr>
   
 </table>
