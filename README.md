@@ -60,14 +60,56 @@ That's it! Enjoy.
     <td>mode</td>
     <td>string</td>
     <td>'class'</td>
-    <td>Defines how the plugin will work. 'Class' would search for alphabetical classes inside the parent element ('body' in this case), while 'children' would fade all the children no matter what.</td>
+    <td>Defines the selection mode. 'Class' would select alphabetical classes inside the parent element ('body' in this case), while 'children' would select and all the children no matter what.</td>
  </tr>
  
  <tr>
-    <td>mode</td>
+    <td>fadeSpeed</td>
+    <td>integer</td>
+    <td>500</td>
+    <td>The speed of the fade effect.</td>
+ </tr>
+
+  <tr>
+    <td>easeLoad</td>
     <td>string</td>
-    <td>'class'</td>
-    <td>Defines how the plugin will work. 'Class' would search for alphabetical classes inside the parent element ('body' in this case), while 'children' would fade all the children no matter what.</td>
+    <td>'swing'</td>
+    <td>Defines easing. Using advanced effects requires 'JQuery Easing' plugin. Options: please visit http://api.jqueryui.com/easings/</td>
+ </tr>
+
+ <tr>
+    <td>displayType</td>
+    <td>string</td>
+    <td>'block'</td>
+    <td>Defines which display style for the affected elements. Options: 'block', 'inline-block', 'inline', 'table', 'inline-table', 'list-item', 'inherit', etc. </td>
  </tr>
   
+ <tr>
+    <td>preLoader</td>
+    <td>boolean</td>
+    <td>true</td>
+    <td>When 'true', a preloader image will be displayed until the window is completely loaded. Options: 'true' or 'false'.</td>
+ </tr>
+
+ <tr>
+    <td>preloadImg</td>
+    <td>string</td>
+    <td>'loading.gif'</td>
+    <td>Path to the image used as preloader. Defaul 'loading.gif' is provided along with this plugin.</td>
+ </tr>
+
+  <tr>
+    <td>preloadWidth</td>
+    <td>integer</td>
+    <td>50</td>
+    <td>Width of the preloader image.</td>
+ </tr>
+
+   <tr>
+    <td>preloadHeight</td>
+    <td>integer</td>
+    <td>50</td>
+    <td>Height of the preloader image.</td>
+ </tr>
+
 </table>
