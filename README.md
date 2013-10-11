@@ -102,14 +102,14 @@ That's it! Enjoy.
     <td>preloadWidth</td>
     <td>integer</td>
     <td>50</td>
-    <td>Width of the preloader image.</td>
+    <td>Width in pixels of the preloader image.</td>
  </tr>
 
    <tr>
     <td>preloadHeight</td>
     <td>integer</td>
     <td>50</td>
-    <td>Height of the preloader image.</td>
+    <td>Height in pixels of the preloader image.</td>
  </tr>
  
  <tr>
