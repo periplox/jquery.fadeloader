@@ -111,5 +111,19 @@ That's it! Enjoy.
     <td>50</td>
     <td>Height of the preloader image.</td>
  </tr>
+ 
+ <tr>
+    <td>preloadCustom</td>
+    <td>'string' (HTML only)</td>
+    <td>''</td>
+    <td>Paste here your HTML to use your own preloader. Remember to set 'preloader' as the class name for the main element.</td>
+ </tr>
+
+ <tr>
+    <td>onComplete</td>
+    <td>'string'</td>
+    <td>''</td>
+    <td>Callback function, executed after all ellements have been loaded.</td>
+ </tr>
 
 </table>
