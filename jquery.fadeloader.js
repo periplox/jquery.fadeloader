@@ -132,7 +132,7 @@
 		fadeSpeed		: 500,
 		//fadeInOrder	: 'desc',
 		//fadeOutOrder	: 'asc',
-		easeLoad		: 'swing',
+		easeLoad		: 'linear',
 		displayType		: 'block',
 		preloader		: true,
 		preloadImg		: 'loading.gif',
