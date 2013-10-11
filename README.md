@@ -73,7 +73,7 @@ That's it! Enjoy.
   <tr>
     <td>easeLoad</td>
     <td>string</td>
-    <td>'swing'</td>
+    <td>'linear'</td>
     <td>Defines easing. Using advanced effects requires 'JQuery Easing' plugin. Options: please visit http://api.jqueryui.com/easings/</td>
  </tr>
 
