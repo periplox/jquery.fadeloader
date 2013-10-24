@@ -1,0 +1,37 @@
+{
+    "name": "fadeloader",
+    "title": "jQuery Fadeloader",
+    "description": "The jQuery Fadeloader plugin lets you easily implement a preloader to your site or section, using a cascade fade in effect to show specific blocks of content.",
+    "keywords": [
+        "preload",
+        "preloader",
+        "load",
+        "loader",
+        "fadein"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Periplo",
+        "url": "https://github.com/periplox"
+    },
+    "maintainers": [
+        {
+            "name": "Periplo",
+            "email": "periplox@gmail.com",
+            "url": "https://github.com/periplox"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/periplox/jquery.fadeloader/issues",
+    "homepage": "https://github.com/periplox/jquery.fadeloader",
+    "docs": "https://github.com/periplox/jquery.fadeloader/blob/master/README.md",
+    "download": "https://github.com/periplox/jquery.fadeloader/blob/master/jquery.fadeloader.js",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
