@@ -3,12 +3,12 @@
 /*/   JQuery FADELOADER    /*/
 /*/          beta          /*/
 /*/  developed by Periplo  /*/
-/*////////////CAMBIO//////////////*/
+/*//////////////////////////*/
 /*//////////////////////////*/
 
 
 (function( $ ) {
-	$.fn.fadeloader = function(options) {
+  $.fn.fadeloader = function(options) {
 		//Default setting
 		var opts = $.extend({}, $.fn.fadeloader.defaults, options);
 
