@@ -9,7 +9,7 @@
         "loader",
         "fadein"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Periplo",
         "url": "https://github.com/periplox"
@@ -30,6 +30,7 @@
     "bugs": "https://github.com/periplox/jquery.fadeloader/issues",
     "homepage": "https://github.com/periplox/jquery.fadeloader",
     "docs": "https://github.com/periplox/jquery.fadeloader/blob/master/README.md",
+    "demo": "http://periplox.github.io/jquery.fadeloader",
     "download": "https://github.com/periplox/jquery.fadeloader/blob/master/jquery.fadeloader.js",
     "dependencies": {
         "jquery": ">=1.5"
