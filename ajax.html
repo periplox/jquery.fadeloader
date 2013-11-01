@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>fadeloader</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fadeloader.js"></script>
+	<style type="text/css">
+		html, body {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+			display: none;
+			vertical-align: top;
+			margin-bottom: 5px;
+		}
+		@media all and (max-width: 400px) {
+			.let {
+				width: 100%;
+			}
+			.con {
+				width: 49%;
+				/*height: 141px;*/
+			}
+		}
+		@media all and (min-width: 400px) {
+			.let {
+				width: 200px;
+			}
+			.con {
+				width: 200px;
+				height: 141px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="a con"><img class="let" src="http://imageshack.us/a/img577/8746/80670611.jpg"></div>
+	<div class="b con"><img class="let" src="http://imageshack.us/a/img46/5216/37226104.jpg"></div>
+	<div class="c con"><img class="let" src="http://imageshack.us/a/img41/5663/51030348.jpg"></div>
+	<div class="d con"><img class="let" src="http://imageshack.us/a/img9/7412/73031581.jpg"></div>
+	<div class="e con"><img class="let" src="http://imageshack.us/a/img607/2171/14947433.jpg"></div>
+	<div class="f con"><img class="let" src="http://imageshack.us/a/img809/60/16218923.jpg"></div>
+	<div class="g con"><img class="let" src="http://imageshack.us/a/img46/5216/37226104.jpg"></div>
+	<div class="h con"><img class="let" src="http://imageshack.us/a/img41/5663/51030348.jpg"></div>
+	<div class="i con"><img class="let" src="http://imageshack.us/a/img9/7412/73031581.jpg"></div>
+	<div class="j con"><img class="let" src="http://imageshack.us/a/img24/6335/45762992.jpg"></div>
+	<script type="text/javascript">
+		$(function(){
+			function fadear(vel, dis, eas, mod) {
+				$('body').fadeloader({
+					mode: mod,
+					fadeSpeed : parseInt(vel),
+					displayType : dis,
+					easeLoad : eas,
+					onComplete : ''
+				});
+			}
+			
+			var vel = window.parent.$('#speed').val();
+			var dis = window.parent.$('#display').val();
+			var eas = window.parent.$('#easing').val();
+			var mod = window.parent.$('#mode').val();
+			fadear(vel, dis, eas, mod);
+		});
+	</script>
+</body>
+</html>
