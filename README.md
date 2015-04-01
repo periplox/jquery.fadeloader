@@ -4,6 +4,8 @@ The jQuery Fadeloader plugin lets you easily implement a preloader to your site 
 cascade fade in effect to show specific blocks of content (for example, you can load first the header, 
 then the menu and finally the content).
 
+##Demo: [right here](http://periplox.github.io/jquery.fadeloader/)
+
 ##Usage
 
 Fist include the required files on your page's HEAD ("easing" is optional):
